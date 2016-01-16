@@ -14,10 +14,4 @@ Start by cloning the repository:
 
 Then run , mounting the bin output directory
 
-
-    docker run -d -v /mesosbin:/mesosbin quay.io/chronojam/mesos-builder /build/build-mesos.sh 0.26.0
-
-You can run it with:  
-
-    $] docker run -d -v /mesosbin:/mesosbin quay.io/chronojam/mesos-builder ./build-mesos.sh 0.26.0
-
+    docker run -d -v /mesosbin:/mesosbin quay.io/chronojam/mesos-builder:0.26.0
